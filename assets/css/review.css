@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  height: 100vh;
+  background-image: url("sky.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rev-section{
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+
+
+.title{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: rgb(50, 50, 50);
+  margin-bottom: .5rem;
+}
+.note{
+  font-size: 1.5rem;
+  color: rgb(150, 150, 150);
+  font-style: italic;
+  color: #000080;
+}
+
+.reviews{
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review{
+  margin: 0 1rem;
+  min-width: 300px;
+  flex: 1;
+}
+
+.head-review{
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+
+
+/*.body-review{
+  background-color: rgb(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+}*/
+.name-review{
+  font-size: 1.5rem;
+  color: rgb(50, 50, 50);
+  font-family: Algerian;
+  /*margin-bottom: .25rem;
+  background-color: rgb(238, 238, 238);
+  padding: 0.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+  width: 300px;
+  height: 50px;*/
+}
+
+
+.desc-review{
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: rgb(50, 50, 50);
+  font: italic bold 25px/30px Georgia, serif;
+  /*background-color: rgb(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+  */
+}
+
+@media (max-width: 678px){
+  .review{
+    margin-top: 1.5rem;
+  }
+}

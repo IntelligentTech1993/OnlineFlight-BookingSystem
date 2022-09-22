@@ -1,0 +1,132 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login-form {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 510px;
+    background:rgba(0,0,0,0.2);
+    border-radius: 40px;
+    margin-bottom: 5px;
+
+}
+
+.form-input {
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+i {
+    margin-top: 29px;
+    height: 30%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-weight: normal;
+    font-size: 110px;
+    margin: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#reset-pass {
+    margin-top: 5px;
+    float: right;
+    width: 40%;
+    margin-right: 40px;
+}
+
+body {
+    /* margin-top: 70px; */
+    background: linear-gradient(to left, #000000, #434343);
+    /* background-color: red; */
+    background-image: url(../images/Capture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+@media screen and (max-width: 900px){
+	#image{
+		display: none;
+	}
+    .login-form {
+        margin-left: 0px;
+    }
+    body {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.submit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #4169E1;
+    color: white;
+    width: 210px ;
+    margin-top: 20px;
+    border: #4169E1;
+    border-radius: 40px;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1E90FF;
+}
+
+input {
+  background: rgba(255,255,255,0.4);
+  border: none;
+  position: relative;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+::-webkit-input-placeholder { color: #666;}
+:-moz-placeholder { color: #666; }
+::-moz-placeholder { color: #666; }
+:-ms-input-placeholder { color: #666; }
